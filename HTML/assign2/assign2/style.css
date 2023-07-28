@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+/* First section start
+
+.card{
+    margin-top: 3rem;
+    display: inline;
+    float: left;
+    margin-left: 3rem;
+}
+.mini-circle-sky{
+    width:7%;
+    height:20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 100px;
+    background-color: rgb(10, 116, 186);
+ 
+}
+.mini-circle-yellow{
+    width:7%;
+    height:20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 100px;
+    background-color: rgb(197, 163, 26);
+
+}
+.mini-circle-orange{
+    width:7%;
+    height:20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 100px;
+    background-color: rgb(220, 133, 34);
+ 
+}
+.profile-circle{
+    width:55%;
+    height: 150px;
+    margin:auto;
+    margin-top: 2rem;
+    border: 1px solid darkblue;
+    border-radius:100px;
+}
+.card-title{
+    margin-top: 2rem;
+} */
+/* Secound-section */
+.Secound-section{
+    width:80%;
+    height:500px;
+    margin:80px auto;
+    padding:20px;
+    background-color: black;
+    border: 1px solid darkblue;
+}
+.Logo-circle{
+    width:9%;
+    height: 120px;
+    margin-left:3rem;
+    margin-top: 2rem;
+    /* border: 1px solid darkblue; */
+    background-color: rgb(235, 102, 19);
+    border-radius:100px;
+}
+.logo-mini-text{
+    width:30%;
+    height: auto;
+    margin-left: 7rem;
+    margin-top: -7rem;
+     /* border: 1px solid seagreen; */
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+}
+.logo-text{
+    width:40%;
+    height: auto;
+    margin-left: 5rem;
+    margin-top: -1rem;
+     /* border: 1px solid seagreen; */
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}
