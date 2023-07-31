@@ -1,0 +1,203 @@
+body {
+  background-color: dark whitesmoke;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 800px;
+  height: 800px;
+}
+.flex-container .flex-container_Box1 { /*USING BEM FOR NAME CONVENTION*/
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+}
+.flex-container .flex-container_childBox2 {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+}
+.flex-container .flex-container_childBox3 {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+}
+.flex-container .flex-container_childBox3 .t1 {
+  position: relative;
+  font-weight: 500;
+  left: 30px;
+}
+.flex-container .flex-container_childBox3 .t2 {
+  position: relative;
+  top: 100px;
+  left: 80px;
+}
+.flex-container .flex-container_childBox3 .t3 {
+  position: relative;
+  top: 150px;
+  left: 80px;
+}
+.flex-container .child_flex_Box4 {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+}
+.flex-container .child_flex_Box4 .tx1 {
+  position: relative;
+  font-weight: 500;
+  left: 30px;
+}
+.flex-container .child_flex_Box4 .tx2 {
+  position: relative;
+  top: 100px;
+  left: 80px;
+}
+.flex-container .child_flex_Box4 .tx3 {
+  position: relative;
+  top: 150px;
+  left: 80px;
+}
+.flex-container .Box5_child_of_flex {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  bottom: 603px;
+  left: 600px;
+}
+.flex-container .Box5_child_of_flex .txx1 {
+  position: relative;
+  font-weight: 500;
+  left: 30px;
+}
+.flex-container .Box5_child_of_flex .txx2 {
+  position: relative;
+  top: 100px;
+  left: 80px;
+}
+.flex-container .Box5_child_of_flex .txx3 {
+  position: relative;
+  top: 150px;
+  left: 80px;
+}
+.flex-container .Box6 {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  bottom: 603px;
+  left: 600px;
+}
+.flex-container .Box6 .tx11 {
+  position: relative;
+  font-weight: 500;
+  left: 30px;
+}
+.flex-container .Box6 .tx22 {
+  position: relative;
+  top: 100px;
+  left: 80px;
+}
+.flex-container .Box6 .tx33 {
+  position: relative;
+  top: 150px;
+  left: 80px;
+}
+.flex-container .Box7 {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  border-bottom: 1px solid black;
+  bottom: 600px;
+  left: 600px;
+}
+.flex-container .Box7 .txt1 {
+  position: relative;
+  font-weight: 500;
+  left: 30px;
+}
+.flex-container .Box7 .txt2 {
+  position: relative;
+  top: 100px;
+  left: 80px;
+}
+.flex-container .Box7 .txt3 {
+  position: relative;
+  top: 150px;
+  left: 80px;
+}
+.flex-container .Box8 {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  bottom: 600px;
+  left: 600px;
+}
+.flex-container .Box8 .ttx {
+  position: relative;
+  font-weight: 500;
+  left: 30px;
+}
+.flex-container .Box8 .ttxx {
+  position: relative;
+  top: 100px;
+  left: 80px;
+}
+.flex-container .Box8 .ttxx2 {
+  position: relative;
+  top: 150px;
+  left: 80px;
+}
+.flex-container .Box9 {
+  position: relative;
+  height: 600px;
+  width: 300px;
+  bottom: 1206px;
+  border-bottom: 1px solid black;
+  left: 1200px;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.logo-circle {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(44, 44, 236);
+  border-radius: 50%;
+  bottom: 750px;
+}
+
+.logo-text h4 {
+  position: relative;
+  font-weight: 800;
+  bottom: 850px;
+  font-size: 30px;
+  left: 40px;
+}
+.logo-text .first-text {
+  position: relative;
+  font-size: 50px;
+  font-weight: 700;
+  bottom: 900px;
+  left: 50px;
+}
+.logo-text .second-text {
+  position: relative;
+  font-size: 50px;
+  font-weight: 700;
+  bottom: 900px;
+  left: 50px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}/*# sourceMappingURL=style.css.map */

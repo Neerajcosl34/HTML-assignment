@@ -1,0 +1,227 @@
+$mycolor:black;
+$mywidth:1px;
+$box_width:300px;
+$box_height:300px;
+body
+{
+    background-color: dark whitesmoke;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    width:800px;
+    height: 800px;
+    .flex-container_Box1 {   /*USING BEM FOR NAME CONVENTION*/
+        height:300px;
+        width:300px;
+        border:1px solid $mycolor;
+    }
+    .flex-container_childBox2 {
+        height:300px;
+        width:300px;
+        border:1px solid $mycolor;
+    }
+    .flex-container_childBox3
+    {
+        height:300px;
+        width:300px;
+        border:1px solid $mycolor;
+        .t1 {
+            position: relative;
+            font-weight:500;
+            left:30px;
+        }
+        .t2 {
+            position: relative;
+            top:100px;
+            left:80px;
+        }
+        .t3 
+        {
+            position: relative;
+            top: 150px;
+            left:80px;
+        }
+    }
+    .child_flex_Box4 {
+        height: 300px;
+        width:300px;
+        border:1px solid $mycolor;
+        .tx1 {
+            position: relative;
+            font-weight:500;
+            left:30px;
+        }
+        .tx2 {
+            position: relative;
+            top:100px;
+            left:80px;
+
+        }
+        .tx3 {
+            position: relative;
+            top:150px;
+            left:80px;
+        }
+
+    }
+    .Box5_child_of_flex {
+        position: relative;
+        height:300px;
+        width:300px;
+        border-bottom: 1px solid $mycolor;
+        border-left:1px solid $mycolor;
+        border-top: 1px solid $mycolor;
+        bottom: 603px;
+        // background-color: yellow;
+        left:600px;
+        .txx1
+        {
+            position: relative;
+            font-weight:500;
+            left:30px;
+        }
+        .txx2 {
+            position: relative;
+            top:100px;
+            left:80px;
+        }
+        .txx3
+        {
+            position: relative;
+            top:150px;
+            left:80px;
+        }
+        
+    }
+    .Box6 {
+        position:relative;
+        height: 300px;
+        width: 300px;
+        border-bottom: 1px solid $mycolor;
+        border-left:1px solid $mycolor;
+        border-right:1px solid $mycolor;
+        border-top: 1px solid $mycolor;
+        // background-color: green;
+        bottom: 603px;
+        left:600px;
+        .tx11 {
+        position: relative;
+        font-weight:500;
+        left:30px;
+        }
+        .tx22 {
+        position: relative;
+        top:100px;
+        left:80px;
+        }
+        .tx33 {
+        position: relative;
+        top:150px;
+        left:80px;
+         }
+    }
+    .Box7 {
+        position: relative;
+        height:300px;
+        width:300px;
+        border-bottom: 1px solid $mycolor;
+        // border-left:1px solid black;
+        // background-color: aqua;
+        bottom: 600px;
+        left:600px;
+        .txt1 {
+            position: relative;
+            font-weight:500;
+            left:30px;
+        }
+        .txt2 {
+            position: relative;
+            top:100px;
+            left:80px;
+        }
+        .txt3 {
+            position: relative;
+            top:150px;
+            left:80px;
+        }
+      
+    }
+    .Box8 {
+        position:relative;
+        height:300px;
+        width:300px;
+        border-bottom: 1px solid $mycolor;
+        border-left:1px solid $mycolor;
+        border-right:1px solid $mycolor;
+        bottom:600px;
+        left:600px;
+        // background-color: black;
+        .ttx {
+            position: relative;
+            font-weight:500;
+            left:30px;
+        }
+        .ttxx
+        {
+            position: relative;
+            top:100px;
+            left:80px;
+        }
+        .ttxx2 {
+            position: relative;
+            top:150px;
+            left:80px;
+        }
+    }
+    .Box9 {
+        position: relative;
+        height: 600px;
+        width:300px;
+        // background-color: blue;
+        bottom:1206px;
+        border-bottom: 1px solid $mycolor;
+        left:1200px;
+        border-right:1px solid $mycolor;
+        border-top: 1px solid $mycolor;
+
+    }
+
+
+}
+.logo-circle
+{
+    position:relative;
+    height:100px;
+    width:100px;
+    background-color: rgb(44, 44, 236);
+    border-radius: 50%;
+    bottom: 750px;
+}
+.logo-text {
+    h4 {
+        position:relative;
+        font-weight: 800;
+        bottom:850px;
+        font-size: 30px;
+        left:40px;
+    }
+        .first-text {
+            position:relative;
+            font-size:50px ;
+            font-weight: 700;
+            bottom:900px;
+            left:50px;
+        }
+        .second-text {
+            position:relative;
+            font-size:50px ;
+            font-weight: 700;
+            bottom:900px;
+            left:50px;
+            color:white;
+            text-shadow: 1px 1px 1px black;
+            
+        }
+}
