@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 70%;
+}
+
+.img_class {
+  background-image: url("Images/Untitled.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.first {
+  display: flex;
+  position: relative;
+  height: 100%;
+  top: 0;
+}
+
+.first_01 {
+  background-color: rgb(2, 2, 2);
+  position: relative;
+  width: 17%;
+  height: 482px;
+  border: 0.5px rgb(65, 65, 65) solid;
+  opacity: 0.8;
+}
+
+.first_02 {
+  background-color: rgb(2, 2, 2);
+  position: relative;
+  width: 22%;
+  height: 482px;
+  border: 0.5px rgb(65, 65, 65) solid;
+  opacity: 0.8;
+  color: rgb(179, 175, 175);
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
