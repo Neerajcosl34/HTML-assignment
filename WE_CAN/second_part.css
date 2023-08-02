@@ -1,0 +1,100 @@
+#section_part {
+  background-color: black;
+  width: 100%;
+  height: 1000px;
+}
+#section_part .flex-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#section_part .flex-cont .component15-3 {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 300px;
+  top: 100px;
+  left: 50px;
+}
+#section_part .flex-cont .component16-3 {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  color: white;
+  font-size: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  left: 550px;
+  top: 100px;
+}
+#section_part .flex-cont #down-text {
+  position: absolute;
+  color: white;
+  top: 500px;
+  font-size: 50px;
+  left: 10px;
+}
+#section_part .logo-circle {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, blue, red);
+  top: 400px;
+  left: 1000px;
+}
+#section_part .para {
+  color: white;
+  font-family: sans-serif;
+  font-size: 30px;
+  position: relative;
+  top: 380px;
+  left: 1000px;
+}
+#section_part .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+#section_part .grid-container .grid-item {
+  position: relative;
+  border: 1px solid rgba(78, 77, 77, 0.922);
+  width: 200px;
+  height: 1020px;
+  bottom: 420p;
+}
+
+/* Media Query for Tablet and Smaller Screens */
+@media (max-width: 768px) {
+  #section_part .flex-cont {
+    flex-direction: column;
+  }
+  #section_part .flex-cont .component15-3,
+  #section_part .flex-cont .component16-3,
+  #section_part .flex-cont #down-text,
+  #section_part .flex-cont .logo-circle,
+  #section_part .flex-cont .para {
+    position: relative;
+    width: 100%;
+    left: 0;
+  }
+}
+/* Media Query for Mobile Phones */
+@media screen and (max-width: 768px) {
+  .component15-3, .component16-3 {
+    font-size: 6vw;
+  }
+  #down-text {
+    font-size: 4vw;
+  }
+  .para {
+    font-size: 3vw;
+  }
+  .logo-circle {
+    display: none; /* Hide the logo-circle on smaller screens */
+  }
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust grid columns for smaller screens */
+  }
+}/*# sourceMappingURL=second_part.css.map */

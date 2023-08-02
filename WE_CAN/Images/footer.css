@@ -1,0 +1,135 @@
+.bg-footer {
+  background-color: #EEEDED;
+  padding: 100px 0 0px;
+  margin-top: -1rem;
+  /* border: 1px solid red; */
+}
+
+.footer-container {
+  margin: auto;
+}
+
+.footer-heading {
+  letter-spacing: 2px;
+  /* border: 1px solid red; */
+}
+
+.footer-link a {
+  color: black;
+  line-height: 40px;
+  font-size: 14px;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.contact-info {
+  color: black;
+  font-size: 14px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 0.3000000119px;
+  text-align: left;
+  /* border: 1px solid red; */
+}
+
+.footer-span {
+  margin-left: 2rem;
+}
+
+.footer-alt {
+  color: #E9E8E8;
+  justify-content: center;
+  text-align: center;
+}
+
+.link {
+  justify-content: center;
+  text-align: center;
+  float: left;
+  display: inline-flex;
+  margin-left: 5rem;
+}
+
+.footer-heading {
+  color: black;
+  position: relative;
+  padding-bottom: 12px;
+  /* border: 1px solid red; */
+  color: black;
+}
+
+.text-uppercase, .text-white {
+  color: black;
+}
+
+.footer-heading:after {
+  content: "";
+  width: 25px;
+  border-bottom: 1px solid #FFF;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  /* border: 1px solid red; */
+}
+
+.text-uppercase {
+  font-family: Source Serif Pro;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-decoration: none;
+  /* border: 1px solid red; */
+}
+
+.footer-heading:after {
+  border-bottom: none;
+}
+
+.footer-link li a {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 40px;
+  letter-spacing: 1px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+  justify-items: center;
+  text-align: center;
+}
+
+.footer-link li a:after {
+  text-decoration: none;
+}
+
+.card-container {
+  width: 80%;
+  margin-left: 8rem;
+  justify-content: center;
+  text-align: center;
+  float: left;
+  display: flex;
+  /* border: 1px solid darkblue; */
+}
+
+.card {
+  margin-left: 5rem;
+}
+
+.footer-a-link {
+  line-height: 10%;
+  /* 52.5px */
+}
+
+/*footer end *//*# sourceMappingURL=footer.css.map */
